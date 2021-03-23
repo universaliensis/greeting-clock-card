@@ -55,4 +55,4 @@ class GreetingClockCard extends HTMLElement {
 
 }
 
-customElements.define('simple-clock-card', SimpleClockCard);
+customElements.define('greeting-clock-card', GreetingClockCard);

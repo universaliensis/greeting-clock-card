@@ -1,4 +1,4 @@
-class SimpleClockCard extends HTMLElement {
+class GreetingClockCard extends HTMLElement {
 
   setConfig(config) {
     this.config = config;

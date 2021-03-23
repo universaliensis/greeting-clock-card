@@ -1,3 +1,4 @@
+
 class GreetingClockCard extends HTMLElement {
 
   setConfig(config) {

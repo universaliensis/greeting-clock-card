@@ -2,9 +2,12 @@ class GreetingClockCard extends HTMLElement {
   set hass(hass) {
     if (!this.content) {
       const card = document.createElement('ha-card');
-      card.header = 'TEST CARD 2';
+      // card.header = 'TEST CARD 2';
       this.content = document.createElement('div');
       this.content.style.padding = '0 16px 16px';
+      this.content.style.fontSize = '4rem';
+      this.style.textAlign = 'center';
+      this.content.style.display = 'inline-block';
       card.appendChild(this.content);
       this.appendChild(card);
     }
@@ -18,6 +21,8 @@ class GreetingClockCard extends HTMLElement {
       <br><br>
       <img src="http://via.placeholder.com/350x150">
     `;
+    this.startTime();
+    setInterval(this.startTime.bind(this), 250);
   }
 
   setConfig(config) {

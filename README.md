@@ -8,8 +8,5 @@ Based on https://github.com/arjhun/Homeassistant-Lovelace-Cards @arjhun
 
 
 # Installation:
-Follow only one of these installation methods.
-
-<details>
-  <summary><b>Installation and tracking with HACS:</b></summary>
+Can be installed using HACS
 
